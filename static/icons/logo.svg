@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <mask id="logo-mask">
+      <!-- White = show red, black = cut through to transparency -->
+      <rect x="9" y="18" width="82" height="64" rx="17" fill="white"/>
+      <!-- Play triangle cut-out -->
+      <path d="M 38 33 L 64 50 L 38 67 Z" fill="black"/>
+      <!-- Swoosh upper stroke cut-out -->
+      <path d="M 7 62 Q 48 54 93 67"
+            stroke="black" stroke-width="11" fill="none"
+            stroke-linecap="round"/>
+      <!-- Swoosh lower stroke cut-out -->
+      <path d="M 30 76 Q 62 70 94 80"
+            stroke="black" stroke-width="7" fill="none"
+            stroke-linecap="round"/>
+    </mask>
+  </defs>
+  <rect x="9" y="18" width="82" height="64" rx="17" fill="#E52D27" mask="url(#logo-mask)"/>
+</svg>

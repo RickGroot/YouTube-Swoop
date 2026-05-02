@@ -1,0 +1,11 @@
+{
+  "extends": ["stylelint-config-standard-scss"],
+  "rules": {
+    "selector-id-pattern": null,
+    "no-descending-specificity": true,
+    "declaration-no-important": true,
+    "selector-max-id": 0,
+    "scss/no-global-function-names": null,
+    "alpha-value-notation": "number"
+  }
+}
